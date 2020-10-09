@@ -1,0 +1,161 @@
+@font-face {
+	font-family: AdobeCaslonPro;
+	src: url("AdobeCaslonPro.ttf") format("truetype");
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+html, body
+{	
+    margin:0; 
+    padding:0;      
+    margin: 0;
+    padding: 0;
+    
+	background: url(../img/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;	
+	background-color: #000;
+	
+	font-family: "AdobeCaslonPro", serif, Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman";
+	
+	-webkit-font-smoothing:antialiased;
+	
+	font-size: 17px;
+	color: #c2c2c2;
+}
+
+
+
+.description a:link {
+    color: inherit;
+}
+
+.description a:hover {
+    color: #fff;
+}
+
+.description a:visited {
+    color: inherit;
+}
+
+td {
+	
+}
+.content 
+{
+    position:relative; 
+    z-index:1;
+    padding:10px;
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 12900px;    
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 80px;
+	margin-bottom: 80px;
+	text-align:center;
+	
+}
+
+.kotaku {	
+	font-style:italic;
+	word-wrap: break-word;
+	max-width: 526px;
+	display: inline-block;
+	
+	
+}
+
+
+.description {	
+	max-width: 750px;
+	display: inline-block;	
+	text-align:left;
+}
+
+.ingress {
+	color:#fff; 
+	font-style:italic;
+	font-weight:bold;
+}
+
+.quote {
+	font-style:italic;
+	color: #c2c2c2;
+}
+
+.heading {
+	color:#fff;
+	font-size:24px;
+}
+
+
+
+
+
+#stores { 
+    display: none;
+    width: 171px;                     
+    padding-left: 9px; 
+    padding-bottom: 9px; 
+    margin: 0px;
+    position: absolute;         
+    text-align: left;                
+    top:687px;
+    left: 574px;
+    float:right; 
+    background-color: #222;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;     
+    border: 1px solid #777;
+}
+
+#stores img {
+ /*padding-top:8px;
+ background-color: red;*/
+}
+
+#closestores {
+    float: right;
+    cursor:pointer;
+}
+
+#closestores img {
+    width:18px;
+    height:18px;
+}
+
+
+.storelink {
+    color: white;
+    font-size: 12px;
+    text-decoration: underline;
+    font-family: verdana;
+    margin-right: 5px;
+    padding-bottom: 3px;
+}
+
+.storeknapp {
+	padding-bottom: 2px;
+}
+
+
+
+.cast-caption {
+color: #fff;
+font-size: 26px;
+margin-bottom: 15px;
+}

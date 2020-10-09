@@ -1,0 +1,7 @@
+# Default Robot info
+# Created 2001-05-05
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /logs/
+
